@@ -1156,4 +1156,106 @@ Wire Notes Line
 	11100 5250 8500 5250
 Wire Notes Line
 	8500 5250 8500 650 
+$Comp
+L 78L05 U?
+U 1 1 573D5D57
+P 7950 5700
+F 0 "U?" H 8100 5504 50  0000 C CNN
+F 1 "78L05" H 7950 5900 50  0000 C CNN
+F 2 "" H 7950 5700 50  0000 C CNN
+F 3 "" H 7950 5700 50  0000 C CNN
+	1    7950 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6850 6050 0    47   Input ~ 0
+HV-GND
+$Comp
+L CONN_01X02 P?
+U 1 1 573D68FA
+P 6600 5700
+F 0 "P?" H 6600 5850 50  0000 C CNN
+F 1 "CONN_01X02" V 6700 5700 50  0000 C CNN
+F 2 "" H 6600 5700 50  0000 C CNN
+F 3 "" H 6600 5700 50  0000 C CNN
+	1    6600 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C?
+U 1 1 573D6D0A
+P 7150 5850
+F 0 "C?" H 7175 5950 50  0000 L CNN
+F 1 "4u7" H 7175 5750 50  0000 L CNN
+F 2 "" H 7188 5700 50  0000 C CNN
+F 3 "" H 7150 5850 50  0000 C CNN
+	1    7150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 573D757D
+P 7400 5850
+F 0 "C?" H 7425 5950 50  0000 L CNN
+F 1 "1u" H 7425 5750 50  0000 L CNN
+F 2 "" H 7438 5700 50  0000 C CNN
+F 3 "" H 7400 5850 50  0000 C CNN
+	1    7400 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 573D7783
+P 8500 5850
+F 0 "C?" H 8525 5950 50  0000 L CNN
+F 1 "4u7" H 8525 5750 50  0000 L CNN
+F 2 "" H 8538 5700 50  0000 C CNN
+F 3 "" H 8500 5850 50  0000 C CNN
+	1    8500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5750 6900 5750
+Wire Wire Line
+	6900 5750 6900 6050
+Wire Wire Line
+	6850 6050 8500 6050
+Wire Wire Line
+	8500 6050 8500 6000
+Connection ~ 6900 6050
+Wire Wire Line
+	7400 6000 7400 6050
+Connection ~ 7400 6050
+Wire Wire Line
+	7150 6000 7150 6050
+Connection ~ 7150 6050
+Wire Wire Line
+	7950 5950 7950 6050
+Connection ~ 7950 6050
+Wire Wire Line
+	8350 5650 8650 5650
+Wire Wire Line
+	8500 5700 8500 5650
+Connection ~ 8500 5650
+Wire Wire Line
+	7550 5650 6800 5650
+Wire Wire Line
+	7150 5700 7150 5650
+Connection ~ 7150 5650
+Wire Wire Line
+	7400 5700 7400 5650
+Connection ~ 7400 5650
+Text GLabel 8650 5650 2    47   Input ~ 0
++5V-HV
+Text Notes 8200 5550 0    47   ~ 0
+supplies the AMC1100
+Wire Notes Line
+	6400 5400 9100 5400
+Wire Notes Line
+	9100 5400 9100 6200
+Wire Notes Line
+	9100 6200 6400 6200
+Wire Notes Line
+	6400 6200 6400 5400
+Text Notes 6600 5550 0    47   ~ 0
+tap off battery pack
 $EndSCHEMATC
