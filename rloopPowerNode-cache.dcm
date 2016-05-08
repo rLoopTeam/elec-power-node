@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP OPTOISO
+D MFSOP6, DC Optocoupler
+K NPN DC Optocoupler
+$ENDCMP
+#
+#End Doc Library
