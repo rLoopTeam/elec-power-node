@@ -1,4 +1,4 @@
-update=5/7/2016 10:03:14 PM
+update=5/8/2016 2:49:57 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../elec-parts-library
+LibDir=../elec-parts-library;../elec-parts-library/footprints.pretty
 [eeschema/libraries]
 LibName1=rloopPowerNode-rescue
 LibName2=power
