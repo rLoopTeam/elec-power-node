@@ -1155,7 +1155,7 @@ $EndComp
 Text Notes 5300 3150 3    31   ~ 0
 Operate optoisolator LEDs at 30mA\nPerhaps a current limiter instead of resistor
 $Comp
-L CONN_01X02 P7
+L CONN_01X02_2XMNT P7
 U 1 1 5756A941
 P 2200 5800
 F 0 "P7" H 2200 5950 50  0000 C CNN
@@ -1413,7 +1413,7 @@ F 2 "-footprints:D-Pak-TO252AA-Resistor" V 9680 5500 50  0001 C CNN
 F 3 "" H 9750 5500 50  0000 C CNN
 F 4 "8W" V 9750 5500 60  0001 C CNN "Power"
 	1    9750 5500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Led_Small D2
@@ -2517,7 +2517,7 @@ BATT-ILV
 Wire Wire Line
 	1500 5600 1500 5500
 $Comp
-L CONN_01X04 P6
+L CONN_01X04-2XMNT P6
 U 1 1 57312237
 P 1450 5800
 F 0 "P6" H 1450 6050 50  0000 C CNN
@@ -2528,7 +2528,7 @@ F 3 "" H 1450 5800 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_01X02 P8
+L CONN_01X02_2XMNT P8
 U 1 1 57318BE2
 P 10200 6250
 F 0 "P8" H 10200 6400 50  0000 C CNN
@@ -2543,7 +2543,7 @@ Wire Wire Line
 Text GLabel 9800 6300 0    47   Input ~ 0
 BATT-NEG
 $Comp
-L CONN_01X02 P9
+L CONN_01X02_2XMNT P9
 U 1 1 5731F074
 P 11900 6250
 F 0 "P9" H 11900 6400 50  0000 C CNN
@@ -2585,4 +2585,20 @@ Wire Wire Line
 	6400 2400 6400 3100
 Wire Wire Line
 	6800 2400 9650 2400
+Text Label 1650 5800 0    4    ~ 0
+BATT-NEG
+Text Label 1250 5800 0    4    ~ 0
+BATT-NEG
+Text Label 10200 6150 0    4    ~ 0
+BATT-NEG
+Text Label 10200 6350 0    4    ~ 0
+BATT-NEG
+Text Label 11900 6150 0    4    ~ 0
+BATT-NEG
+Text Label 11900 6350 0    4    ~ 0
+BATT-NEG
+Text Label 2100 5800 0    4    ~ 0
+GND
+Text Label 2300 5800 0    4    ~ 0
+GND
 $EndSCHEMATC
