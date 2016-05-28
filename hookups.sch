@@ -57,7 +57,7 @@ F 3 "" H 1950 850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 800  1550 800 
+	1550 800  1750 800 
 Wire Wire Line
 	1750 900  1650 900 
 Wire Wire Line
@@ -77,7 +77,7 @@ F 3 "" H 1950 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1200 1550 1200
+	1550 1200 1750 1200
 Wire Wire Line
 	1750 1300 1650 1300
 Wire Wire Line
@@ -97,7 +97,7 @@ F 3 "" H 1950 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1600 1550 1600
+	1550 1600 1750 1600
 Wire Wire Line
 	1750 1700 1650 1700
 Wire Wire Line
@@ -117,7 +117,7 @@ F 3 "" H 1950 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2000 1550 2000
+	1550 2000 1750 2000
 Wire Wire Line
 	1750 2100 1650 2100
 Wire Wire Line
@@ -137,7 +137,7 @@ F 3 "" H 1950 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2400 1550 2400
+	1550 2400 1750 2400
 Wire Wire Line
 	1750 2500 1650 2500
 Wire Wire Line
@@ -157,7 +157,7 @@ F 3 "" H 1950 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2800 1550 2800
+	1550 2800 1750 2800
 Wire Wire Line
 	1750 2900 1650 2900
 Wire Wire Line
@@ -181,7 +181,7 @@ F 3 "" H 1950 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 4000 1550 4000
+	1550 4000 1750 4000
 Wire Wire Line
 	1750 4100 1650 4100
 Wire Wire Line
@@ -201,7 +201,7 @@ F 3 "" H 1950 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 4400 1550 4400
+	1550 4400 1750 4400
 Wire Wire Line
 	1750 4500 1650 4500
 Wire Wire Line
@@ -221,7 +221,7 @@ F 3 "" H 1950 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 4800 1550 4800
+	1550 4800 1750 4800
 Wire Wire Line
 	1750 4900 1650 4900
 Wire Wire Line
@@ -241,7 +241,7 @@ F 3 "" H 1950 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 5200 1550 5200
+	1550 5200 1750 5200
 Wire Wire Line
 	1750 5300 1650 5300
 Wire Wire Line
@@ -261,7 +261,7 @@ F 3 "" H 1900 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 5600 1450 5600
+	1450 5600 1650 5600
 Wire Wire Line
 	1650 5700 1550 5700
 Wire Wire Line
@@ -291,7 +291,7 @@ F 3 "" H 1950 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 6150 1550 6150
+	1550 6150 1750 6150
 Wire Wire Line
 	1750 6250 1650 6250
 Wire Wire Line
@@ -300,7 +300,7 @@ Connection ~ 1650 6150
 Text GLabel 1550 6150 0    60   Input ~ 0
 +3.3V
 Wire Wire Line
-	1700 6550 1500 6550
+	1500 6550 1700 6550
 Wire Wire Line
 	1700 6650 1600 6650
 Wire Wire Line
@@ -396,10 +396,73 @@ F 3 "" H 1950 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 6950 1450 6950
+	1450 6950 1750 6950
 Wire Wire Line
 	1750 7050 1650 7050
 Wire Wire Line
 	1650 7050 1650 6950
 Connection ~ 1650 6950
+$Comp
+L CONN_01X08 P35
+U 1 1 575063C4
+P 3950 1100
+F 0 "P35" H 3950 1550 50  0000 C CNN
+F 1 "CONN_01X08" V 4050 1100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 3950 1100 50  0001 C CNN
+F 3 "" H 3950 1100 50  0000 C CNN
+	1    3950 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 750  3650 750 
+Wire Wire Line
+	3750 850  3650 850 
+Wire Wire Line
+	3750 950  3650 950 
+Wire Wire Line
+	3750 1050 3650 1050
+Wire Wire Line
+	3750 1150 3650 1150
+Wire Wire Line
+	3750 1250 3650 1250
+Wire Wire Line
+	3750 1350 3650 1350
+Wire Wire Line
+	3750 1450 3650 1450
+Text GLabel 3650 750  0    47   Input ~ 0
+GND
+Text GLabel 3650 850  0    47   Input ~ 0
+BMS-IRQ
+Text GLabel 3650 950  0    47   Input ~ 0
+BMS-CS
+Text GLabel 3650 1050 0    47   Input ~ 0
+BMS-PWRAVAIL
+Text GLabel 3650 1150 0    47   Input ~ 0
+BMS-MISO
+Text GLabel 3650 1250 0    47   Input ~ 0
+BMS-SCK
+Text GLabel 3650 1350 0    47   Input ~ 0
+BMS-MOSI
+Text GLabel 3650 1450 0    47   Input ~ 0
++3V3
+$Comp
+L CONN_01X02 P36
+U 1 1 57507872
+P 3950 1850
+F 0 "P36" H 3950 2000 50  0000 C CNN
+F 1 "CONN_01X02" V 4050 1850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3950 1850 50  0001 C CNN
+F 3 "" H 3950 1850 50  0000 C CNN
+	1    3950 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3550 1800 0    47   Input ~ 0
+BMS-PD
+Wire Wire Line
+	3550 1800 3750 1800
+Wire Wire Line
+	3750 1900 3650 1900
+Wire Wire Line
+	3650 1900 3650 1800
+Connection ~ 3650 1800
 $EndSCHEMATC
